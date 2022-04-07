@@ -13,9 +13,10 @@ conda env create -f env.yaml
 
 
 # train
-
+ python main.py --data_path path-to-the-dataset --model_name the-name-of-a-new-training
 
 # evaluate
+python evaluate.py --data_path path_to_testing_set --pretrained_path path_to_predtrained_model
 
 # predict
 python predict.py --image_path path_to_image --pretrained_path path_to_predtrained_model
