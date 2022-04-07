@@ -14,28 +14,28 @@ conda install pytorch==1.6.0 torchvision==0.7.0 cudatoolkit=10.1 -c pytorch
 ## install dependencies
 conda env create -f env.yaml
 ```
-
-## create conda env
-conda create -n ordinal python=3.6
-## activate conda env
-conda activate ordinal
-## install pytorch
-conda install pytorch==1.6.0 torchvision==0.7.0 cudatoolkit=10.1 -c pytorch
-## install dependencies
-conda env create -f env.yaml
+# data preparation
+You can download the InteriorNet-layout dataset here: 
 
 
-
-
-
-# train
+# training
+Run the following command to train our network:
+```
  python main.py --data_path path-to-the-dataset --model_name the-name-of-a-new-training
+```
+# pre-trained model
+You can download our pre-trained models here: 
 
-# evaluate
+# evaluation
+Run the following command to evaluate the performance:
+```
 python evaluate.py --data_path path_to_testing_set --pretrained_path path_to_predtrained_model
+```
 
-# predict
+# prediction
+Run the following command to predict on a single image:
+```
 python predict.py --image_path path_to_image --pretrained_path path_to_predtrained_model
-
+```
 
 
