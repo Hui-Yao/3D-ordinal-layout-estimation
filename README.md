@@ -1,6 +1,8 @@
 # Introduction
 3D layout estimation of general rooms based on ordinal semantic segmentation.
+![流程图](https://user-images.githubusercontent.com/52377012/162351737-4cc149ce-aa7e-4f57-92fd-c9cb9aded329.PNG)
 
+![3333](https://user-images.githubusercontent.com/52377012/162351848-9dead60c-7b03-4f7a-bd29-67a880c574d9.PNG)
 
 
 # Installation
