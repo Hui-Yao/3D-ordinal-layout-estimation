@@ -17,7 +17,7 @@ conda activate ordinal
 ## install pytorch
 conda install pytorch==1.6.0 torchvision==0.7.0 cudatoolkit=10.1 -c pytorch
 ## install dependencies
-conda env create -f env.yaml
+pip install -r requirements.txt
 ```
 # Data preparation
 You can download the InteriorNet-layout dataset here: https://github.com/Hui-Yao/InteriorNet-Layout/blob/main/README.md
