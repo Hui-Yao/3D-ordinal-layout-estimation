@@ -19,17 +19,12 @@ conda install pytorch==1.6.0 torchvision==0.7.0 cudatoolkit=10.1 -c pytorch
 ## install dependencies
 pip install -r requirements.txt
 ```
-# Data preparation
-You can download the InteriorNet-layout dataset here: https://github.com/Hui-Yao/InteriorNet-Layout/blob/main/README.md
-
 
 # Training
 Run the following command to train our network:
 ```
  python main.py --data_path path-to-the-dataset --model_name the-name-of-a-new-training
 ```
-# Pre-trained model
-You can download our pre-trained model here: https://drive.google.com/drive/folders/1bR4FFUFm7_eUEyav2fu8PUPlJP8i-gf3
 
 # Evaluation
 Run the following command to evaluate the performance:
